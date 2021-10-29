@@ -1,0 +1,120 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid aliceblue;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.pac-man {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.blinky {
+  background-color: red;
+  border: 0px;
+}
+
+.pinky {
+  background-color: pink;
+  border: 0px;
+}
+
+.inky {
+  background-color: orange;
+  border: 0px;
+}
+
+.clyde {
+  background-color: aquamarine;
+  border: 0px;
+}
+
+.scared-ghost {
+  background-color: darkblue;
+  border: 0px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  flex: 0 1 70px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#banner div {
+  margin-left: auto;
+}
+
+#game-container {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.galaxy-pacman {
+  color: white;
+  background-color: rgba(131, 203, 237, 0.776);
+  border-radius: 15px;
+  font-weight: 700;
+  height: 110px;
+  width: 550px;
+  position: absolute;
+  left: 35%;
+  margin-top: 10px;
+}
+
+.background-ting {
+  display: flex;
+  background-image: url(./pacman-galaxy-copy.png);
+  background-repeat: repeat-y;
+  background-position-y: 0%;
+  background-position-x: 0%;
+  background-blend-mode: color-burn;
+  height: 3000px;
+  width: 3000px;
+}
+
+.signup-title {
+  position: relative;
+  left: 35%;
+}
+
+.login-title {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.login-form {
+  position: relative;
+  padding-left: 25px;
+}
